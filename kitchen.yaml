@@ -8,7 +8,9 @@ provisioner:
   name: chef_zero
   always_update_cookbooks: true
   product_name: "chef"
-  product_version: "13.8.5"
+  product_version: "15.3"
+  client_rb:
+    chef_license: accept
 
 verifier:
   name: inspec
